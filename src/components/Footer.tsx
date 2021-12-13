@@ -16,12 +16,15 @@ const Link = styled.a`
 `;
 
 const Footer = () => {
-
+  const link = (text: string, url: string) => (
+    <Link href={url} rel="noopener noreferrer">
+      {text}
+    </Link>
   );
 
   return (
     <StyledFooter>
-      © Bannerify 2021. All rights reserved \n A Vansh Choudhary Production
+      © {link(Bannerify)} 2021 \n A {link(Vansh Choudhary)} Production
     </StyledFooter>
   );
 };
