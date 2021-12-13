@@ -10,7 +10,7 @@ import { Actions } from './Home.styled';
 import { RouteComponentProps } from 'react-router';
 
 type TProps = {
-  createPlaylistStart: () => spotifyActions.createPlaylistStart;
+  createPlaylistStart: spotifyActions.createPlaylistStart;
   getTopArtistsStart: () => void;
   user: IState['user'];
   artists: IState['artists'];
