@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-
+eslint-disable-next-line
 const StyledButton = styled.button<{
   buttonStyle: TProps['buttonStyle'];
   disabled: TProps['disabled'];
