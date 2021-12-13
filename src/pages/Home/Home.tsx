@@ -10,7 +10,7 @@ import { Actions } from './Home.styled';
 import { RouteComponentProps } from 'react-router';
 
 type TProps = {
-  createPlaylistStart: spotifyActions.createPlaylistStart;
+  createPlaylistStart: () => void;
   getTopArtistsStart: () => void;
   user: IState['user'];
   artists: IState['artists'];
@@ -46,13 +46,13 @@ class Home extends Component<TProps> {
         {createPlaylistState.isLoading && <Overlay text="Creating Playlist..." />}
 
         <Actions>
-           <Button
+          (/* <Button
             onClick={() => createPlaylistStart()}
             disabled={hasNoArtists}
             title="Create a playlist containing recommendations based on your top artists."
           >
             Generate Playlist
-          </Button> 
+          </Button> */)
 
           <Button onClick={this.handleSaveImage} disabled={hasNoArtists}>
             Save as image
