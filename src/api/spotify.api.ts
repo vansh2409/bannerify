@@ -1,6 +1,6 @@
 import SpotifyWebApi from 'spotify-web-api-js';
 import { ETimeRange } from 'types/general';
-import { isRunningLocally } from 'lib';
+
 
 export const spotifyApi = new SpotifyWebApi();
 
