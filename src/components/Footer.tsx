@@ -25,7 +25,7 @@ const Footer = () => {
 
   return (
     <StyledFooter>
-      © {link('Bannerify', repository)} - {version} {linebreak} A {link(author.name, author.url)} Production 
+      © {link('Bannerify', repository)} {version} - A {link(author.name, author.url)} Production 
     </StyledFooter>
   );
 };
