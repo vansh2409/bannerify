@@ -44,7 +44,7 @@ const StyledTitle = styled.h1`
 const Title = ({ title, username }: TProps) => (
   <Wrap>
     {username && <SubTitle>{username}'s</SubTitle>}
-    <StyledTitle>{title}</StyledTitle>
+    <StyledTitle>Bannerify</StyledTitle>
   </Wrap>
 );
 
