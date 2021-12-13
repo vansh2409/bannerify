@@ -1,12 +1,12 @@
 {
   "name": "spotifest",
-  "version": "1.0.0",
+  "version": "2021",
   "private": true,
-  "repository": "https://github.com/wouterlanduydt/Spotifest",
+  "repository": "https://bannerify.ml",
   "author": {
-    "name": "Wouter Landuydt",
-    "email": "wouter.landuydt@gmail.com",
-    "url": "https://wouterlanduydt.be"
+    "name": "Vansh Choudhary",
+    "email": "vanshchoudhary2005@gmail.com",
+    "url": "https://vanshchoudhary.ml"
   },
   "scripts": {
     "start": "BROWSER=none react-scripts start",
