@@ -15,7 +15,7 @@ const Link = styled.a`
   font-weight: 600;
   text-decoration: underline;
 `;
- var linebreak = '\n';
+ var linebreak = "<br>";
 
 const Footer = () => {
   const link = (text: string, url: string) => (
