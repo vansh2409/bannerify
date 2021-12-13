@@ -25,7 +25,7 @@ const Footer = () => {
 
   return (
     <StyledFooter>
-      Made by {link(author.name, author.url)} - {link('view source', repository)} - {version}
+      © Echecs 2021. All rights reserved \n A Vansh Choudhary Production
     </StyledFooter>
   );
 };
