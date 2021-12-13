@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import { author, repository, version } from '../../package.json';
 
 const StyledFooter = styled.footer`
   font-size: 1.2em;
