@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { author, repository, version } from '../../package.json';
 
 const StyledFooter = styled.footer`
   font-size: 1.2em;
@@ -24,7 +25,7 @@ const Footer = () => {
 
   return (
     <StyledFooter>
-      © {link(Bannerify)} 2021 \n A {link(Vansh Choudhary)} Production
+      Made by {link(author.name, author.url)} - {link('view source', repository)} - {version}
     </StyledFooter>
   );
 };
