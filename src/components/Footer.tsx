@@ -16,15 +16,12 @@ const Link = styled.a`
 `;
 
 const Footer = () => {
-  const link = (text: string, url: string) => (
-    <Link href={url} rel="noopener noreferrer">
-      {text}
-    </Link>
+
   );
 
   return (
     <StyledFooter>
-      © Echecs 2021. All rights reserved \n A Vansh Choudhary Production
+      © Bannerify 2021. All rights reserved \n A Vansh Choudhary Production
     </StyledFooter>
   );
 };
