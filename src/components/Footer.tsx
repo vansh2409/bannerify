@@ -25,7 +25,7 @@ const Footer = () => {
 
   return (
     <StyledFooter>
-      Made by {link(author.name, author.url)} - {link('view source', repository)} - {version}
+      © {link('Bannerify', repository)} - {version} \n A {link(author.name, author.url)} Production 
     </StyledFooter>
   );
 };
