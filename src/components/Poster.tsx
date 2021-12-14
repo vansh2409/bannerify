@@ -210,7 +210,7 @@ class Poster extends React.PureComponent<TProps> {
                   {(i === 0 || i === long || i === medium) && (
                     <Separator>
                       <span>
-                        {i === 0 ? 'long term' : i === long ? 'medium term' : 'short term'}
+                        {i === 0 ? 'Favourite Artists' : i === long ? 'You also like' : 'short term'}
                       </span>
                     </Separator>
                   )}
